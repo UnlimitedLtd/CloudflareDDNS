@@ -1,2 +1,5 @@
-# Cloudflare**DDNS** ![](https://cf-assets.www.cloudflare.com/slt3lc6tev37/CHOl0sUhrumCxOXfRotGt/081f81d52274080b2d026fdf163e3009/cloudflare-icon-color_3x.png)
+# Cloudflare**DDNS** &#9729;
+
+*This is an **unofficial** repository that is **not** sponsored, endorsed or administered by, or associated with [Cloudflare®](https://cloudflare.com).*
+
 Check your machine's current public IP address using [ipify](https://ipify.org) and update a [Cloudflare](https://cloudflare.com) DNS A record accordingly.
