@@ -1,16 +1,8 @@
 {
-    "domain": {
-        "domain": "example.com",
-        "domain_id": "",
-        "zone_id": "",
-        "api_key": "",
-        "ttl": 1
-    },
-    "general": {
-        "network_timeout_seconds": 10
-    },
-    "cache": {
-        "path": "/home/user/cache.json",
-        "expiry_minutes": 60
-    }
+    "domain": "example.com",
+    "domain_id": "",
+    "zone_id": "",
+    "api_key": "",
+    "ttl": 1,
+    "proxied": false
 }
