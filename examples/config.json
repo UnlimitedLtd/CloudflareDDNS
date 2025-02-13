@@ -1,6 +1,7 @@
 {
     "domain": "example.com",
     "domain_id": "",
+    "zone_id": "",
     "api_key": "",
     "ttl": 1,
     "proxied": false
