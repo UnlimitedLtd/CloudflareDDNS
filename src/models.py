@@ -20,7 +20,6 @@ class _LookupARecord(pydantic.BaseModel):
     """ Model for 'result' field in _LookupARecordResult. """
 
     id: str
-    zone_id: str
     name: str
     type: typing.Literal["A"]
     content: str
