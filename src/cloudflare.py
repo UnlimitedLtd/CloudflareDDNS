@@ -93,8 +93,5 @@ class API:
             response.status_code,
         )
 
-        print(response.request.body)
-        print(response.request.headers)
-
         # 200 indicates success, no need to check JSON response.
         response.raise_for_status()
