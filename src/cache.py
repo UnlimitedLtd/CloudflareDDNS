@@ -127,6 +127,5 @@ class Cache:
 
             self.path.write_text(cache.model_dump_json(), encoding="utf-8")
 
-            debug_str = f"Written record cache {ip}|{
-                self._datetime_to_string(expires)}"
+            debug_str = f"Written record cache {ip}|{self._datetime_to_string(expires)}"
             logger.debug(debug_str)
