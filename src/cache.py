@@ -101,8 +101,7 @@ class Cache:
         if cache.expires < int(self._time_now().timestamp()):
             return None
 
-        debug_str = f"Found record cache {cache.ip}|{
-            self._epoch_to_string(cache.expires)}"
+        debug_str = f"Found record cache {cache.ip}|{self._epoch_to_string(cache.expires)}"
         logger.debug(debug_str)
 
         return cache.ip
