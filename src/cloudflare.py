@@ -30,8 +30,7 @@ class API:
         self.headers = {
             "Authorization": f"Bearer {config.api_key}"
         }
-        self.endpoint = f"https://api.cloudflare.com/client/v4/zones/{
-            config.zone_id}/dns_records/{config.domain_id}"
+        self.endpoint = f"https://api.cloudflare.com/client/v4/zones/{config.zone_id}/dns_records/{config.domain_id}"
         self.timeout = timeout
 
     def get_a_record(self) -> str:
