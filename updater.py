@@ -49,7 +49,8 @@ ipify_connector = ipify.IPify(
     verbose=args.verbose
 )
 
-cloudflare_connector = cloudflare.API(args.domain_config)
+cloudflare_connector = cloudflare.API(
+    config=args.domain_config, timeout=args.timeout, verbose=args.verbose)
 
 current_ip = ipify_connector.get_current_ip()
 
